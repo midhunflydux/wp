@@ -1,0 +1,194 @@
+﻿body
+{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+a
+{
+    text-decoration: none;
+    color: #444444;
+}
+
+    a:hover
+    {
+        color: #164883;
+    }
+
+.alt {
+    color: #F38025;
+}
+
+
+/*.container
+{
+    background-color: #ffffff;
+}*/
+
+.topBlankBar
+{
+    background-color: #EAEEF7;
+}
+
+/*.headerSection
+{
+    background-color: #ffffff;
+}*/
+
+.headerSliderSection
+{
+    background-color: #dedede;
+}
+
+.leftSection
+{
+    background-color: #666666;
+}
+
+.mainContent
+{
+    background-color: #ffffff;
+}
+
+.footerSection
+{
+    background-color: #EAEEF7;
+    color: #000000;
+}
+
+    .footerSection a
+    {
+        color: #000000;
+        text-decoration: none;
+    }
+
+.footerBottomBar {
+    background-color: #F38025;
+    color: #ffffff;
+}
+
+.footerBottomBar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.lightBorder
+{
+    border-color: #5E5F63;
+}
+
+.colourHeaderBox
+{
+    background-color: #F38025;
+    color: #ffffff;
+}
+
+    .colourHeaderBox a
+    {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+        .colourHeaderBox a:hover
+        {
+            color: #eeeeee;
+        }
+
+.greyContentBox {
+    background-color: #EAEEF7;
+
+}
+
+.standardBtn, .standardBtnBack, .standardBtnEdit, .btnNoArrow {
+    background-color: #F38025;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+    .standardBtn a, .standardBtnBack a, .standardBtnEdit a, .btnNoArrow a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+.greyBtn, .greyBtnBack {
+    color: #FFFFFF;
+    background-color: #9FA3AA;
+}
+
+/*PROP SEARCH PAGING*/
+
+.pageingBlock a
+{
+    color: #999999;
+}
+
+
+.selectedBorder
+{
+    border-color: #F38025;
+}
+
+
+
+/*NEWS BOXES*/
+
+
+.newsFirst {
+    background-image: url('../images/icons/newsFirst.png');
+    background-repeat: no-repeat;
+}
+
+.newsPrev {
+    background-image: url('../images/icons/newsPrev.png');
+    background-repeat: no-repeat;
+}
+
+.newsNext {
+    background-image: url('../images/icons/newsNext.png');
+    background-repeat: no-repeat;
+}
+
+.newsLast {
+    background-image: url('../images/icons/newsLast.png');
+    background-repeat: no-repeat;
+}
+
+.newsBox
+{
+    
+}
+
+.newsItem, .newsItemR {
+    background-color: #EAEEF7;
+    /*border-bottom: dotted 2px #bbbbbb;*/
+}
+
+
+
+
+/*SLIDER*/
+
+.sliderText
+{
+    background-color: #F38025;
+    color: #ffffff;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+    .sliderText a
+    {
+        color: #ffffff;
+    }
+
+
+.contactDownload a:hover
+{
+    color: #dddddd;
+    text-decoration: none;
+}
+
+/*Captcha*/
+.conCCaptcha {
+    color: #F38025;
+}

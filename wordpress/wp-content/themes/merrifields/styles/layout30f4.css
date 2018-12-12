@@ -1,0 +1,902 @@
+﻿body
+{
+    margin: 0px;
+}
+
+img
+{
+    border: none;
+}
+
+
+.container
+{
+    width: 98%;
+    max-width: 980px;
+    min-width: 300px;
+    margin: auto;
+    border: solid 0px black;
+    position: relative;
+    top: -30px;
+}
+
+.TransparentContainer
+{
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    border: solid 0px black;
+}
+
+.topBlankBar
+{
+    height: 39px;
+    margin-bottom: 10px;
+}
+
+.headerSection
+{
+    width: 100%;
+    float: left;
+    height: 95px;
+}
+
+    .headerSection img
+    {
+        float: left;
+    }
+
+.headerSliderSection
+{
+    width: 100%;
+    float: left;
+    height: 256px;
+    position: relative;
+}
+
+
+.leftSection
+{
+    width: 30%;
+    float: left;
+}
+
+.mainContent
+{
+    width: 100%;
+    float: left;
+}
+
+.footerSection
+{
+    padding-top: 10px;
+    /*padding-bottom: 10px;*/
+    margin-top: 15px;
+}
+
+.footerBottomBar {
+    height: 35px;
+    padding-top: 15px;
+}
+
+.contactIcon {
+    height: 20px;
+    padding: 2px 5px 2px 0;
+    vertical-align: middle;
+}
+
+.clear {
+    clear: both;
+}
+
+.HIDETHIS {
+    display: none;
+}
+
+.L {
+    float: left;
+}
+
+.R {
+    float: right;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.btmGap {
+    margin-bottom: 10px;
+}
+
+.btmGapLarge {
+    margin-bottom: 20px;
+}
+
+.btmGapLarger
+{
+    margin-bottom: 30px;
+}
+
+.obj5L {
+    width: 5%;
+    float: left;
+}
+
+.obj10L {
+    width: 10%;
+    float: left;
+}
+
+.obj15L {
+    width: 15%;
+    float: left;
+}
+
+.obj20L
+{
+    width: 20%;
+    float: left;
+}
+
+.obj25L {
+    width: 25%;
+    float: left;
+}
+
+.obj30LPad {
+    width: 25%;
+    float: left;
+    padding-right: 5%;
+}
+
+.obj30L
+{
+    width: 30%;
+    float: left;
+}
+
+.obj35 {
+    width: 35%;
+}
+
+.obj35L {
+    width: 35%;
+    float: left;
+}
+
+.obj40L
+{
+    width: 40%;
+    float: left;
+}
+
+.obj50L {
+    width: 50%;
+    float: left;
+}
+
+.obj50LPad {
+    width: 47%;
+    float: left;
+    padding-right: 3%;
+}
+
+.obj60L
+{
+    width: 60%;
+    float: left;
+}
+
+.obj65L
+{
+    width: 65%;
+    float: left;
+}
+
+.obj65LPad {
+    width: 62%;
+    padding-right: 3%;
+    float: left;
+}
+
+.obj70L
+{
+    width: 70%;
+    float: left;
+}
+
+.obj75L {
+    width: 75%;
+    float: left;
+}
+
+.obj80L {
+    width: 80%;
+    float: left;
+}
+
+.obj90L {
+    width: 90%;
+    float: left;
+}
+
+.obj95R {
+    width: 95%;
+    float: right;
+}
+
+.obj99
+{
+    width: 99%;
+}
+
+.obj100L
+{
+    width: 100%;
+    float: left;
+}
+
+.obj100
+{
+    width: 100%;
+}
+
+.obj30R
+{
+    width: 30%;
+    float: right;
+}
+
+.txtC {
+    text-align: center;
+}
+
+.txtL {
+    text-align: left;
+}
+
+.txtR {
+    text-align: right;
+}
+
+.rel
+{
+    position: relative;
+}
+
+.innerS
+{
+    padding: 5px;
+}
+
+.innerM
+{
+    padding: 10px;
+}
+
+.innerL
+{
+    padding: 15px;
+}
+
+.NoPadLeft
+{
+    padding-left: 0px;
+}
+
+
+.NoPadRight
+{
+    padding-right: 0px;
+}
+
+.rndS
+{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.rndM
+{
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+}
+
+.rndL
+{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.imgStatus
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-width: 115px;
+}
+
+.fitImage
+{
+    width: 100%;
+}
+
+
+/*PROP SEARCH PAGING*/
+
+.pageingBlock
+{
+    /*width: 10px;*/
+    min-width: 12px;
+    height: 15px;
+    text-align: center;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: 2px;
+    float: left;
+    vertical-align: top;
+    border-style: solid;
+    border-width: 1px;
+    /*border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;*/
+}
+
+    .pageingBlock img
+    {
+        position: relative;
+        top: -2px;
+        right: 0px;
+    }
+
+    .pageingBlock a
+    {
+        text-decoration: none;
+    }
+
+/*Prop Results*/
+
+.PropRptInner
+{
+    padding-left: 5px;
+}
+
+.propRpt
+{
+    margin-top: 10px;
+    width: 101%;
+}
+
+.divRptPropItem
+{
+    width: 24%;
+    margin-right: 1%;
+    float: left;
+}
+
+.InnerPropItem
+{
+    position: relative;
+    height: 360px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    background-color: #e1e1e1;
+    overflow: hidden;
+}
+
+.propertyItemTypeTenure
+{
+    font-size: 11pt;
+    text-transform: uppercase;
+    height: 55px;
+    overflow-y: hidden;
+}
+
+.propertyItemAddress
+{
+    font-size: 12pt;
+    margin-bottom: 5px;
+}
+
+.propertyItemSize
+{
+    font-size: 10.5pt;
+    margin-bottom: 8px;
+}
+
+.propertyItemDescription
+{
+    font-size: 9pt;
+    color: #000000;
+}
+
+.propertyItemButtons {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: #F38025;
+    line-height: 40px;
+    text-align: center;
+    color: #dddddd;
+}
+
+    .propertyItemButtons a:hover
+    {
+        text-decoration: none;
+    }
+
+    .propertyItemButtons .greyOutlinedBox, .propertyItemButtons .blueOutlinedBox
+    {
+        /*margin-right: 10px;*/
+        margin-left: 3px;
+        margin-right: 11px;
+        text-transform: uppercase;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 10pt;
+    }
+
+.imgGalRow
+{
+    height: 80px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+/*image gallery buttons*/
+.btnPhotoPrev {
+    position: absolute;
+    bottom: 200px;
+    left: 0px;
+}
+
+.btnPhotoNext {
+    position: absolute;
+    bottom: 200px;
+    right: 0px;
+}
+
+.Detail_Map
+{
+    width: 100%;
+}
+
+/*NEWS BOXES*/
+
+.newsPaging a
+{
+    text-decoration: none;
+    margin-right: 5px;
+    float: left;
+    width: 13px;
+}
+
+.newsPagingText
+{
+    width: 100px;
+    float: left;
+}
+
+.newsFirst {
+    padding: 0 5px;
+    margin: 0;
+}
+
+.newsPrev {
+    padding: 0 5px;
+    margin: 0;
+}
+
+.newsNext {
+    padding: 0 5px;
+    margin: 0;
+}
+
+.newsLast {
+    padding: 0 5px;
+    margin: 0;
+}
+
+    .newsBox a
+    {
+        text-decoration: none;
+        color: #444444;
+    }
+
+.newsItem {
+    min-height: 80px;
+    width: 100%;
+    max-width: 470px;
+    float: left;
+}
+
+.newsItemTitle {
+    height: 44px;
+    overflow: hidden;
+}
+
+
+.newsItemR {
+    min-height: 80px;
+    width: 100%;
+    max-width: 470px;
+    float: right;
+}
+
+.newsItemArrowDiv {
+    float: right;
+    min-height: 80px;
+    width: 35px;
+}
+
+.newsItemArrowImg {
+    padding-top: 22px;
+    width: 35px;
+}
+
+.newsItemDate {
+}
+
+.divHomeNews {
+    float: right;
+    width: 47%;
+}
+
+.newsItemImg{
+    height: 80px;
+    width: 25%;
+    float: right;
+}
+
+
+/*SLIDER*/
+.sliderItem
+{
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 256px;
+    position: relative;
+}
+
+.sliderButtons
+{
+    position: absolute;
+    top: 205px;
+    left: 85%;
+}
+
+.sliderText
+{
+    /*margin-top: 70px;*/
+    float: left;
+    padding: 10px;
+    width: 300px;
+    padding-left: 20px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.homeItems {
+    margin-top: 10px;
+}
+
+.homeItemsBanner {
+    text-align: left;
+    line-height: 40px;
+    color: #FFFFFF;
+    height: 40px;
+    width: 95%;
+    padding-left: 5%;
+    background-color: #F38025;
+    position: relative;
+    bottom: 5px;
+    left: 0px;
+}
+
+.homeItemsBanner a:hover {
+    text-decoration: none;
+}
+
+.contactsBanner {
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    width: 95%;
+    padding-left: 5%;
+    background-color: #F38025;
+    position: absolute;
+    top: 155px;
+    right: 0px;
+}
+
+.contactsBanner a {
+    color: #FFFFFF;
+}
+
+.contactsBanner a:hover {
+    text-decoration: none;
+    color: #dddddd;
+}
+
+.itemContainer {
+    width: 100%;
+    float: left;
+}
+
+.itemBox {
+    width: 32%;
+    margin-bottom: 5px;
+    float: left;
+    vertical-align: top;
+    text-align: center;
+}
+
+.itemBoxImg {
+    width: 100%;
+}
+
+.itemBox img:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.itemBoxMargin {
+    margin: 0 2%;
+}
+
+.itemBannerArrow {
+    float: right;
+    height: 40px;
+    width: 40px;
+    border-left: 1px white solid;
+}
+
+.itemBannerArrowBack {
+    float: left;
+    height: 40px;
+    width: 40px;
+    border-right: 1px white solid;
+}
+
+.divCookie
+{
+    background-color: #eeeeee;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #666666;
+    font-size: 11px;
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    width: 400px;
+    z-index: 5000;
+    text-align: left;
+}
+
+.Close_icon
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+
+/*PROPERTY SEARCH*/
+.resultsSearchContainer {
+    padding-top: 10px;
+    min-height: 80px;
+}
+
+.resultsSearch
+{
+    line-height: 30px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 9pt;
+}
+
+/*Microsite Login*/
+.micrositeLoginContainer {
+    padding-top: 10px;
+    min-height: 80px;
+}
+
+.micrositeRegisterContainer {
+    padding-top: 10px;
+    min-height: 235px;
+}
+
+/*Contacts*/
+.contactBox
+{
+    height: 195px;
+    background-color: #e6e6e6;
+    overflow: hidden;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+/*Contact form*/
+
+.divcontactInput {
+    width: 58%;
+    float: left;
+    margin-left: 2%;
+}
+
+
+/*Controls*/
+select {
+    padding: 2px;
+}
+
+.textbox
+{
+    width: 99%;
+    padding: 3px;
+}
+
+.btn {
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+
+.greyBtn {
+    padding-left: 10px;
+    padding-right: 40px;
+    background-image: url('../images/icons/greyNext.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.greyBtnBack {
+    padding-left: 40px;
+    padding-right: 10px;
+    background-image: url('../images/icons/greyPrevious.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.standardBtn {
+    border: none;
+    padding-left: 10px;
+    padding-right: 40px;
+    background-image: url('../images/icons/next.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.standardBtnEdit {
+    border: none;
+    padding-left: 10px;
+    padding-right: 40px;
+    background-image: url(../images/icons/pencil.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.standardBtnBack {
+    padding-left: 40px;
+    padding-right: 10px;
+    background-image: url('../images/icons/previous.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.btnNoArrow {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.RefineButton
+{
+    padding: 5px !important;
+    padding-right: 25px !important;
+    border: solid 1px white;
+    background-color: #F38025;
+    color: #ffffff;
+    text-decoration: none;
+    background-image: url('../images/icons/search_Icon.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    /*width:150px;*/
+    text-transform: uppercase;
+    margin-top: 0px;
+    float: right;
+}
+
+    .RefineButton:hover
+    {
+        cursor: pointer;
+        border: solid 1px #dddddd;
+        color: #dddddd;
+    }
+
+/*News*/
+.featuredNews
+{
+    color: #444444;
+}
+
+    .featuredNews a
+    {
+        color: #444444;
+        text-decoration: none;
+    }
+
+
+.foot2
+{
+ padding-left:20px;
+}
+
+.foot4
+{
+ padding-left:40px;
+}
+
+/*Captcha*/
+    .conCCaptcha {
+        font-family: "Open Sans", sans-serif, Arial;
+        font-size: 14px;
+        clear: left;
+        float: left;
+        width: 100% !important;
+        margin: 3px 0px;
+    }
+
+    .conCCaptcha > div {
+        width: 30%;
+        float: left;
+    }
+    
+        .conCCaptcha img {
+            float: right;
+            max-width: 95%;
+        }
+
+        .conCCaptcha p {
+            width: 58%;
+            float: left;
+            margin-left: 2%;
+        }
+
+        .conCCaptcha a {
+            width: 150px;
+        }
+
+        .conCCaptcha input {
+            width: 99%;
+            float: left;
+            padding: 3px;
+        }
+
+        .conCCaptcha label {
+            float: left;
+        }
+
+
+.rcCaptchaAudioLink {
+        background: url('images/sound.html') no-repeat;
+    }
+
+    .rcRefreshImage {
+        clear: left;
+        background: url('images/reload.html') no-repeat;
+    }
+
+    .rcCaptchaAudioLink, .rcRefreshImage {
+        float: left;
+        display: block;
+        height: 30px;
+        background-position: left center;
+        padding-left: 25px;
+        line-height: 30px;
+        margin-left: 5px;
+    }

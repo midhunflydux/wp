@@ -1,0 +1,178 @@
+﻿
+.menuPhone
+{
+    margin-top: 40px;
+    float: right;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.menuWrapper
+{
+    margin-top:40px;
+    float:right;
+}
+
+.menu
+{
+    /*width:70%;*/
+    float:right;
+    text-align:right;
+
+    font-size:11pt;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+    /* Safari 5+ ONLY */
+    ::i-block-chrome, .menu {
+     font-weight: normal !important;
+    }
+}
+
+@media screen and (max-width: 643px) {
+    .menu {
+        /*font-weight: normal !important;*/
+        font-size: 7pt !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+	.menu {
+	     /*font-weight: normal !important;*/
+	     /*font-size: 9pt !important;*/
+	}
+            ul.menu li
+    {
+        margin-left: 5px !important;
+    }
+
+.menuPhone
+    {
+        font-size: 9pt !important;
+    }
+
+    .newsItem {
+        margin-right: 10px;
+    }
+
+    .newsItemR {
+        float: left;
+    }
+}
+
+@media screen and (max-width:  979px) {
+    .menu {
+	     font-weight: normal !important;
+         font-size: 9pt;
+	}
+       ul.menu li
+    {
+        margin-left: 5px !important; /*3px*/
+    }
+
+    .menuPhone
+    {
+        font-size: 9pt !important;
+        display: none;
+    }
+}
+
+.menu a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu a:hover
+{
+    padding-bottom: 7px;
+    border-bottom:solid 5px #F38025
+}
+
+ul.menu, ul.menu ul, ul.menu li
+{
+    list-style: none;
+    margin: 0;
+    padding: 0 0 7px 0;
+    position: relative;
+    z-index: 2000;
+}
+
+    /*Style for 1st level menu header*/
+    ul.menu li
+    {
+        float: left;
+        margin-left: 20px;
+    }
+
+.MenuCurrent
+{
+        border-bottom:solid 5px #F38025;
+}
+
+.MenuCurrentParent
+{
+        border-bottom:solid 5px #F38025;
+}
+
+
+/*hidden sub menus as we show these in sub control.... show these if we want to use a roll over effect (not implemented... take css from matherjamie*/
+.menu ul li
+{
+    display:none;
+}
+
+
+
+
+
+/*SUB MENU*/
+
+.subMenu
+{
+float:right;
+
+}
+
+.subMenu a
+{
+    text-decoration: none;
+color:#164883;
+text-transform:uppercase;
+font-size:9pt;
+}
+
+.subMenu a:hover
+{
+    border-bottom:solid 5px #dddddd
+}
+
+ .subMenu ul, .subMenu li
+{
+text-align:right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 2000;
+}
+
+    /*Style for 1st level menu header*/
+     .subMenu ul, .subMenu li
+    {
+        float: left;
+        margin-left: 10px;
+
+    }
+
+.MenuChildCurrent
+{
+    border-bottom:solid 5px #164883;
+}
+
+li.ChildMenuItem1 {
+    margin-left: 0px !important;
+}

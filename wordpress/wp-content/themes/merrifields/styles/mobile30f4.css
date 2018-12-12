@@ -1,0 +1,385 @@
+﻿.menuMobile, .MobileMenu {
+    display: none;
+}
+
+.subMenu {
+    display: none;
+}
+
+.mobOnly {
+    display: none;
+}
+
+.HomeFooterText {
+    width: 100%;
+    max-width: 750px;
+    float: right;
+    margin-top: 40px;
+}
+
+.homeFooterResponsive img {
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 150px;
+    margin-right: 0px;
+    float: left;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 555px) {
+
+    .menuMobile {
+        display: block;
+        /*background-color: #ffffff;*/
+        color: #ffffff;
+        text-align: right;
+        line-height: 35px;
+        margin-top: 10px;
+    }
+
+        .menuMobile a {
+            padding-top: 6px;
+            padding-right: 6px;
+        }
+
+    .MobileMenu {
+        position: relative;
+        left: 0px;
+        float: left;
+        width: 100%;
+    }
+
+    .cssMenu {
+        float: left;
+        text-align: center;
+        font-size: 11pt;
+        text-transform: uppercase;
+        border-top: solid 1px #ffffff;
+    }
+
+    ul.cssMenu li {
+        float: left;
+        margin: 0;
+        padding: 7px 0;
+        width: 100%;
+        background-color: #F38025;
+        border-bottom: solid 1px #ffffff;
+        text-align: center;
+    }
+
+    .cssMenu a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+        .cssMenu a:hover {
+            text-decoration: none;
+            color: #dddddd;
+            border: none;
+        }
+
+    .subMenu {
+        display: block;
+    }
+
+        .subMenu ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            float: left;
+            width: 100%;
+            border-top: solid 1px #1B4164;
+        }
+
+        .subMenu li {
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            background-color: #dddddd;
+            border-bottom: solid 1px #1B4164;
+            line-height: 30px;
+        }
+
+    .cssMenu li ul {
+        position: relative;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+        .cssMenu li ul li {
+            background-color: #9698B8;
+            text-align: center;
+            border: none;
+            border-top: solid 1px #ffffff;
+        }
+
+    .menuPhone {
+        display: none;
+    }
+
+    .menuWrapper {
+        display: none;
+    }
+}
+    @media screen and (max-width: 528px) {
+
+        .headerSection img {
+            width: 55%;
+        }
+
+        .imgStatus {
+            width: 25%;
+        }
+
+        .imgPropFrame {
+            min-height: 0px;
+        }
+
+        /*image gallery buttons*/
+        .mobPhotoBtns {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+        }
+
+        .btnPhotoPrev {
+            bottom: 115px;
+        }
+
+        .btnPhotoNext {
+            bottom: 115px;
+        }
+
+        .divCookie {
+            width: 80%;
+            left: 5%;
+            padding: 5%;
+        }
+
+        .headerSection {
+            margin-top: 0px;
+        }
+
+        .logo {
+            position: absolute;
+            top: 5%;
+            height: 90%;
+        }
+
+        .divSlideControl {
+            font-size: 12px;
+        }
+
+        iframe {
+            height: 215px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        .headerSection {
+            min-width: 100% !important;
+        }
+
+        .homeMiddleSection {
+            min-width: 100% !important;
+        }
+
+        .footerSection {
+            text-align: center;
+            min-width: 100% !important;
+        }
+
+        .footerBottomBar {
+            text-align: center;
+        }
+
+        .propDetailLinks img {
+            margin-right: 0px;
+        }
+
+        .HomeFooterText {
+            margin-top: 20px;
+            width: auto;
+            float: none;
+        }
+
+        .homeFooterResponsive {
+            text-align: center;
+            padding: 0px;
+        }
+
+            .homeFooterResponsive img {
+                vertical-align: auto;
+                margin-top: 20px;
+                margin-bottom: 30px;
+                margin-left: auto;
+                width: 150px;
+                margin-right: auto;
+                float: none;
+            }
+
+
+        .container {
+            width: 95%;
+        }
+
+        
+
+        .homeInner {
+            padding: 0px;
+        }
+
+        .homeItemsBanner {
+            padding-left: 0px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .itemBoxMargin {
+            margin: 0;
+        }
+
+        .mobHide {
+            display: none;
+        }
+
+        .mobOnly {
+            display: inherit;
+        }
+
+        .mob40 {
+            width: 40% !important;
+        }
+
+        .mob35L {
+            width: 35% !important;
+            float: left !important;
+        }
+
+        .conCCaptcha > div {
+            width: 35%;
+        }
+
+        .mob40L {
+            width: 40% !important;
+            float: left !important;
+        }
+
+        .mob50L {
+            width: 50% !important;
+            float: left !important;
+        }
+
+        .mob100 {
+            width: 100% !important;
+            float: none !important;
+        }
+
+        .mob100L {
+            width: 100% !important;
+            float: left !important;
+        }
+
+        .mob100R {
+            width: 100% !important;
+            float: right !important;
+        }
+
+        .mobPositionInitial {
+            position: inherit !important;
+            margin: 10px 0 !important;
+        }
+
+        .mobTxtBoxWrap {
+            width: 250px;
+        }
+
+        .mobTxtL {
+            text-align: left;
+        }
+
+        .mobTxtC {
+            text-align: center;
+        }
+
+        .mobNoFloat {
+            float: none;
+        }
+
+        .mobNoPad {
+            padding: 0;
+        }
+
+        .mobNoPadSides {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .propItemLinks a {
+            border: 0px;
+            width: 50%;
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+
+        .propItemLinks {
+            background-image: url('../images/greyPixle.html');
+            background-position: center;
+            background-repeat: repeat-y;
+        }
+
+        .propertyItem {
+            font-size: 8pt;
+        }
+
+        .contactBox {
+            min-width: 300px;
+        }
+
+
+        
+
+        .homeInner {
+            font-size: 13pt;
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 200px) {
+        iframe {
+            height: 110px;
+        }
+    }
+
+    @media screen and (max-width: 220px) {
+        iframe {
+            height: 120px;
+        }
+    }
+
+    @media screen and (max-width: 240px) {
+        iframe {
+            height: 135px;
+        }
+    }
+
+    @media screen and (max-width: 280px) {
+        iframe {
+            height: 155px;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        iframe {
+            height: 175px;
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+        iframe {
+            height: 195px;
+        }
+    }

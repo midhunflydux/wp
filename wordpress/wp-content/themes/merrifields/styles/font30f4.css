@@ -1,0 +1,127 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif, Arial;
+    font-size: 11pt;
+}
+
+textarea {
+    font-family: 'Open Sans', sans-serif, Arial;
+    font-size: 10pt;
+}
+
+.colourHeaderBox H1 {
+    padding: 5px 5px 0px 10px;
+    /*text-transform:uppercase;*/
+}
+
+H1 {
+    font-size: 12pt;
+    font-weight: normal;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+H2 {
+    font-size: 11pt;
+    margin: 0px;
+}
+
+H3 {
+    font-size: 11pt;
+}
+
+H4 {
+    font-size: 11pt;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+H5 {
+    font-size: 8pt;
+    font-weight: normal;
+    margin: 0;
+}
+
+.txtUpper
+{
+    text-transform: uppercase;
+}
+
+.txtC
+{
+    text-align:center;
+}
+
+.txtAlert
+{
+    color: red;
+}
+
+.pageingBlock
+{
+    font-size: 9pt;
+}
+
+.footerSection
+{
+    font-size: 8pt;
+}
+
+    .footerSection h5
+    {
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-size: 10pt;
+        font-weight: bold;
+        /*text-transform:uppercase;*/
+    }
+
+    .footerSection p
+    {
+        margin-top: 5px;
+    }
+
+    .footerSection a:hover
+    {
+        margin-top: 5px;
+        text-decoration:underline;
+    }
+
+.btn
+{
+    font-size:10pt;
+}
+
+.greyBtn, .greyBtnBack {
+    font-size:10pt;
+}
+ .greyBtn:hover, .greyBtnBack:hover
+    {
+        color:#dddddd;
+        text-decoration:none;
+    }
+
+.standardBtn, .standardBtnBack, .standardBtnEdit, .btnNoArrow {
+    font-size:10pt;
+}
+
+    .standardBtn:hover, .standardBtnBack:hover, .standardBtnEdit:hover, .btnNoArrow:hover {
+        color:#dddddd;
+        text-decoration:none;
+    }
+
+
+/*SLIDER*/
+
+.sliderText h3
+{
+    margin-top: 0px;
+    display: none;
+    font-size:18px;
+}
+
+.sliderText a
+{
+    font-size: 18pt;
+    text-decoration: none;
+    
+}
